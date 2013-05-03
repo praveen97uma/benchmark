@@ -1,0 +1,50 @@
+--------------------------------------------------------------------
+Platform: Linux-3.5.0-27-generic-i686-with-Ubuntu-12.10-quantal 
+Python Version: 2.7.3, Compiler: GCC 4.7.2
+Number of CPUs: 4, Total Physical Memory: 1944.617188 MB
+--------------------------------------------------------------------
+Software Tools used:
+  Whoosh 2.4.1, psutil 0.7.0, matplotlib 1.1.1, python 2.7.3
+
+===== Performance of searching of simple queries =====
+Size of the index: 3.055882 MB
+No. of indexed documents: 500 
+No of search queries: 10
+
+-------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+cueing            0.077259      35.765625
+flinging          0.002398      35.769531
+hangman           0.003562      35.769531
+Erich's           0.004667      35.769531
+southern          0.004385      35.769531
+homburg           0.005198      35.769531
+wildly            0.005923      35.789062
+suddenness        0.004473      35.789062
+truthfully        0.004479      35.789062
+fattening         0.005365      35.789062
+
+Average time taken: 0.011771 secs
+Average memory used: 35.776953 MB
+
+===== Performance of searching of complex queries in Whoosh =====
+Size of the index: 3.048532 MB
+No. of indexed documents: 500 
+No of search queries: 10
+------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+backslash         0.003224      37.835938
+Jon's             0.003477      37.835938
+ripper's          0.007442      37.835938
+bark's            0.006726      37.835938
+examiner's        0.006974      37.835938
+midgets           0.007964      37.835938
+ticks             0.005138      37.835938
+candies           0.004225      37.835938
+Fletcher          0.003260      37.835938
+yips              0.004191      37.835938
+
+Average time taken: 0.005262 secs
+Average memory used: 37.835938 MB

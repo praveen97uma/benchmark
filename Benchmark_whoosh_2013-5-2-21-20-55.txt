@@ -1,0 +1,49 @@
+--------------------------------------------------------------------
+Platform: Linux-3.5.0-27-generic-i686-with-Ubuntu-12.10-quantal 
+Python Version: 2.7.3, Compiler: GCC 4.7.2
+Number of CPUs: 4, Total Physical Memory: 1944.617188 MB
+--------------------------------------------------------------------
+Software Tools used:
+  Whoosh 2.4.1, psutil 0.7.0, matplotlib 1.1.1, python 2.7.3
+
+===== Performance of searching of simple queries =====
+Size of the index: 3.053616 MB
+No of search queries: 10
+
+-------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+weightier         0.020653      33.269531
+particles         0.002767      33.300781
+retorting         0.004261      33.300781
+grave             0.004207      33.300781
+whippings         0.005240      33.300781
+Gutierrez         0.005281      33.300781
+phlegmatic        0.005507      33.300781
+gridlocks         0.003300      33.300781
+anemia's          0.004276      33.300781
+Aconcagua         0.004321      33.300781
+
+Average time taken: 0.005981 secs
+Average memory used: 33.297656 MB
+
+===== Performance of searching of simple queries in Whoosh %s
+Size of the index: 3.053616 MB
+No. of indexed documents: 1000 
+No of search queries: 10
+------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+Va                0.003135      36.781250
+silos             0.003467      36.781250
+wrestler          0.005660      36.781250
+fines             0.006890      36.781250
+launch            0.005525      36.781250
+deprograms        0.006840      36.781250
+embalmer's        0.007257      36.781250
+milkweed's        0.006591      36.781250
+hungover          0.006589      36.781250
+vellum            0.005467      36.781250
+
+Average time taken: 0.005742 secs
+Average memory used: 36.781250 MB

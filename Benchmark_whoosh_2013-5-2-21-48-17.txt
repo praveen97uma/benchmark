@@ -1,0 +1,230 @@
+--------------------------------------------------------------------
+Platform: Linux-3.5.0-27-generic-i686-with-Ubuntu-12.10-quantal 
+Python Version: 2.7.3, Compiler: GCC 4.7.2
+Number of CPUs: 4, Total Physical Memory: 1944.617188 MB
+--------------------------------------------------------------------
+Software Tools used:
+  Whoosh 2.4.1, psutil 0.7.0, matplotlib 1.1.1, python 2.7.3
+
+===== Performance of searching of simple queries =====
+Size of the index: 10.160394 MB
+No. of indexed documents: 2000 
+No of search queries: 100
+
+-------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+hobble's          0.016040      48.210938
+temple            0.003404      48.214844
+severing          0.004458      48.214844
+sightseer         0.004472      48.214844
+trigger's         0.006224      48.214844
+whirred           0.004237      48.214844
+Forster           0.005335      48.214844
+jawbones          0.004476      48.214844
+Illinois          0.004614      48.214844
+grass's           0.006352      48.214844
+boorishly         0.005384      48.214844
+Andropov          0.004486      48.214844
+Burris            0.005127      48.214844
+Blondie           0.005358      48.214844
+manhandled        0.002964      48.214844
+cisterns          0.002738      48.214844
+dukedom's         0.004363      48.214844
+crisp             0.004612      48.214844
+enumerates        0.004592      48.214844
+caramels          0.008654      48.214844
+salamis           0.005980      48.214844
+Nehru             0.005092      48.214844
+cyanide's         0.005406      48.214844
+plumper           0.005984      48.214844
+penitence         0.002861      48.214844
+appositely        0.003002      48.214844
+zombies           0.003696      48.214844
+Witt              0.004247      48.214844
+imbalances        0.005386      48.214844
+harnesses         0.004811      48.214844
+briar             0.004529      48.214844
+telepathic        0.005186      48.214844
+proficient        0.004534      48.214844
+Iranians          0.007443      48.214844
+gradation         0.003211      48.214844
+mosquito's        0.005251      48.214844
+Langley           0.005352      48.214844
+transepts         0.005096      48.214844
+shortcut's        0.008395      48.214844
+feuding           0.002737      48.214844
+deletes           0.003974      48.214844
+tragedies         0.004474      48.214844
+taillights        0.006205      48.214844
+Peugeot           0.004342      48.214844
+batiks            0.002430      48.214844
+Mekong's          0.003942      48.214844
+edelweiss         0.002835      48.214844
+misshapen         0.005280      48.214844
+eyefuls           0.004788      48.214844
+offshoots         0.003787      48.214844
+struggle's        0.002649      48.214844
+heightens         0.006215      48.214844
+vacations         0.004523      48.214844
+tonne's           0.006325      48.214844
+voyage            0.005390      48.214844
+torrents          0.005400      48.214844
+singeing          0.006113      48.214844
+dumbwaiter        0.004604      48.214844
+dirtying          0.006601      48.214844
+pause's           0.005195      48.214844
+shabbiness        0.005305      48.214844
+dovetail's        0.006441      48.214844
+boycotts          0.007538      48.214844
+Laurel            0.005115      48.214844
+Jose's            0.004263      48.214844
+gilds             0.005901      48.214844
+hesitated         0.004557      48.214844
+ratcheted         0.005424      48.214844
+rimed             0.005997      48.214844
+pummelling        0.005179      48.214844
+clarinet          0.005313      48.214844
+astronaut         0.002566      48.214844
+automate          0.004460      48.214844
+I'd               0.004831      48.214844
+unkindlier        0.004631      48.214844
+gurneys           0.005186      48.214844
+Sepoy's           0.006194      48.214844
+pack's            0.006044      48.214844
+collages          0.005056      48.214844
+sewer's           0.006215      48.214844
+rues              0.006697      48.214844
+lunacies          0.005296      48.214844
+foxhound          0.005290      48.214844
+refocusses        0.004573      48.214844
+qualifiers        0.005365      48.214844
+commits           0.006342      48.214844
+queasy            0.004278      48.214844
+reappoint         0.005327      48.214844
+Dominican         0.005366      48.214844
+rating's          0.004003      48.214844
+replayed          0.002747      48.214844
+intangibly        0.005499      48.214844
+signing's         0.006003      48.214844
+stalked           0.005201      48.214844
+slackly           0.003033      48.214844
+Sonny             0.003543      48.214844
+chorus            0.003351      48.214844
+westerlies        0.003385      48.214844
+munching          0.005400      48.214844
+Juggernaut        0.006122      48.214844
+
+Average time taken: 0.005042 secs
+Average memory used: 48.214805 MB
+
+===== Performance of searching of simple queries in Whoosh %s
+Size of the index: 10.166881 MB
+No. of indexed documents: 2000 
+No of search queries: 100
+------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+Lacy's            0.004356      54.722656
+front             0.004263      54.722656
+twanging          0.005379      54.722656
+composing         0.007815      54.722656
+forgoing          0.004778      54.722656
+poked             0.005493      54.726562
+verbalize         0.007486      54.726562
+tidbit's          0.007700      54.726562
+puzzlement        0.006946      54.726562
+thorax's          0.006040      54.726562
+La                0.003635      54.726562
+set               0.006767      54.726562
+whiner            0.005950      54.726562
+blameless         0.006661      54.726562
+Konrad            0.003349      54.726562
+centiliter        0.005795      54.726562
+mood              0.008412      54.726562
+windbag's         0.003617      54.726562
+Nero              0.005924      54.726562
+rate              0.008159      54.726562
+wafts             0.007052      54.726562
+customer's        0.008279      54.726562
+Clemson           0.007222      54.726562
+wreckers          0.003569      54.726562
+stag's            0.005640      54.726562
+antiheroes        0.006655      54.726562
+slumbrous         0.003339      54.726562
+brewed            0.003563      54.726562
+aesthete          0.004610      54.726562
+vectors           0.003264      54.726562
+osteopathy        0.006602      54.726562
+gentle            0.006395      54.726562
+suturing          0.003291      54.726562
+apprehends        0.004226      54.726562
+snowier           0.007452      54.726562
+career            0.003354      54.726562
+Miranda           0.004989      54.726562
+fitful            0.005382      54.726562
+mingling          0.007233      54.726562
+homer             0.003683      54.726562
+worrywart         0.006030      54.726562
+hernia's          0.003655      54.726562
+cancer's          0.005510      54.726562
+hut               0.006303      54.726562
+Hereford's        0.006681      54.726562
+courtyards        0.006390      54.726562
+domicile          0.003458      54.726562
+corporal          0.008095      54.726562
+anecdotal         0.003403      54.726562
+encased           0.006143      54.726562
+floppiest         0.004261      54.726562
+Etna's            0.004439      54.726562
+products          0.003312      54.726562
+tower's           0.006352      54.726562
+caesarian         0.006805      54.726562
+Swanson           0.003329      54.726562
+worshipper        0.006831      54.726562
+fomenting         0.003408      54.726562
+weeknight         0.007818      54.726562
+etcher            0.003312      54.726562
+Manilas           0.005979      54.726562
+spelling          0.007290      54.726562
+tubing's          0.006616      54.726562
+shortbread        0.004595      54.726562
+gigolos           0.005058      54.726562
+fancy's           0.008242      54.726562
+enumerated        0.006604      54.726562
+auction           0.005474      54.726562
+Dionysus          0.006001      54.726562
+woodsier          0.006792      54.726562
+Tabriz            0.007485      54.726562
+Knuth's           0.006219      54.726562
+subpoena's        0.003464      54.726562
+Josephine         0.006137      54.726562
+ease              0.006816      54.726562
+hello             0.005325      54.726562
+grouchy           0.003821      54.726562
+dowses            0.005887      54.726562
+Thursday          0.008176      54.726562
+incognito         0.003596      54.726562
+safety's          0.004165      54.726562
+monopolies        0.004075      54.726562
+oregano's         0.006634      54.726562
+Nassau            0.007244      54.726562
+guileful          0.006222      54.726562
+teabag            0.005814      54.726562
+alphabets         0.007602      54.726562
+contumely         0.002994      54.726562
+Beltane           0.005584      54.726562
+dispose           0.007393      54.726562
+beg               0.002857      54.726562
+deceased          0.006047      54.726562
+tenderized        0.007637      54.726562
+Mercado           0.006555      54.726562
+sniffles          0.004929      54.726562
+Melody's          0.008304      54.726562
+warmed            0.004282      54.726562
+belongings        0.006757      54.726562
+wonted            0.007259      54.726562
+summer's          0.003741      54.726562
+
+Average time taken: 0.005655 secs
+Average memory used: 54.726367 MB

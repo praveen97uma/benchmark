@@ -1,0 +1,31 @@
+--------------------------------------------------------------------
+Platform: Linux-3.5.0-27-generic-i686-with-Ubuntu-12.10-quantal 
+Python Version: 2.7.3, Compiler: GCC 4.7.2
+Number of CPUs: 4, Total Physical Memory: 1944.617188 MB
+--------------------------------------------------------------------
+Software Tools used:
+  Whoosh 2.4.1, psutil 0.7.0, matplotlib 1.1.1, python 2.7.3
+
+===== Performace of index creation =====
+Multiprocessing : Yes
+No. of words in each document: 20
+Length of each word: 10 chars
+
+No. of Docs  Time(secs)    Memory(MB)      Index Size(MB)
+----------------------------------------------------------
+100          0.726852      36.297363       0.645767
+200          0.750638      37.110352       1.287406
+300          1.060829      37.377841       1.934848
+400          1.258528      37.540264       2.578110
+
+===== Performace of index creation =====
+Multiprocessing : No
+No. of words in each document: 20
+Length of each word: 10 chars
+
+No. of Docs  Time(secs)    Memory(MB)      Index Size(MB)
+----------------------------------------------------------
+100          0.696731      38.180176       0.646939
+200          1.345728      38.896484       1.269023
+300          1.978825      39.830859       1.883274
+400          2.625160      39.845052       2.478565

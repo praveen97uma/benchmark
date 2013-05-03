@@ -1,0 +1,50 @@
+--------------------------------------------------------------------
+Platform: Linux-3.5.0-27-generic-i686-with-Ubuntu-12.10-quantal 
+Python Version: 2.7.3, Compiler: GCC 4.7.2
+Number of CPUs: 4, Total Physical Memory: 1944.617188 MB
+--------------------------------------------------------------------
+Software Tools used:
+  Whoosh 2.4.1, psutil 0.7.0, matplotlib 1.1.1, python 2.7.3
+
+===== Performance of searching of simple queries =====
+Size of the index: 3.048027 MB
+No. of indexed documents: 500 
+No of search queries: 10
+
+-------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+turnkey           0.015108      35.738281
+skyline's         0.002485      35.742188
+shingled          0.003738      35.742188
+factory's         0.005341      35.742188
+securely          0.005445      35.742188
+Easter            0.005954      35.761719
+abbot's           0.004304      35.761719
+Kentuckian        0.004594      35.761719
+Pyotr's           0.005186      35.761719
+hilt              0.003502      35.761719
+
+Average time taken: 0.005566 secs
+Average memory used: 35.751562 MB
+
+===== Performance of searching of simple queries in Whoosh %s
+Size of the index: 3.056356 MB
+No. of indexed documents: 500 
+No of search queries: 10
+------------------------------------------------------------------
+Search Word       Time(sec)     Memory(MB)
+----------------------------------------------
+Enron's           0.003094      37.820312
+emulsions         0.003334      37.820312
+amputating        0.005210      37.820312
+Orion's           0.006657      37.820312
+Bristol's         0.005652      37.820312
+Diaspora          0.006379      37.820312
+deformed          0.005809      37.820312
+veiled            0.007006      37.820312
+glares            0.002860      37.820312
+pianist           0.005451      37.820312
+
+Average time taken: 0.005145 secs
+Average memory used: 37.820312 MB
